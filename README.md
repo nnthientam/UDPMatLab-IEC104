@@ -1,14 +1,13 @@
-# Интерфейс обмена данными между Simulink Desktop Real-Time и внешними SCADA-системами по протоколу МЭК 60870-5-104
+Interface for data exchange between Simulink Desktop Real-Time and external SCADA systems via IEC 60870-5-104 protocol
+This repository provides a tool that allows you to organize data exchange between the Simulink Desktop Real-Time tool and external SCADA systems that support the IEC 60870-5-104 protocol.
 
-В данном репозитории представлен инструмент, позволяющий организовать обмен данными между инструментом Simulink Desktop Real-Time и внешними SCADA-системами, поддерживающими протокол МЭК 60870-5-104.
+A detailed description of the project is given in an article published in the collection of materials of the conference "Energy Through the Eyes of Youth - 2018": https://drive.google.com/file/d/1gMV0PsgVT254y_iv3chqLAyWouDMo85L/view?usp=sharing
 
-Подробное описание проекта приведено в статье, опубликованной в сборнике материалов конференции "Энергетика глазами молодежи – 2018": https://drive.google.com/file/d/1gMV0PsgVT254y_iv3chqLAyWouDMo85L/view?usp=sharing
+The solution was created in Microsoft Visual Studio 2017. Explanation of the projects included in the solution:
 
-Решение создано в Microsoft Visual Studio 2017. Пояснение по проектам входящим в состав решения:
-1. UDP104 - Интерфейс обмена данными между Simulink Desktop Real-Time и внешними SCADA-системами по протоколу МЭК 60870-5-104;
-2. Configurator - Приложение "Конфигуратор" с графическим интерфейсом;
-3. SimulinkIEC104 - Библиотека общих классов проектов "UDP104" и "Configurator";
-4. lib60870 - Исходный код библиотеки lib60870.NET версии 2.1.0 с незначительными корректировками (https://github.com/mz-automation/lib60870.NET).
-
-# Лицензия
-Исходный код распространяется по лицензии GNU (GPLv3) (Текст лицензии на английском языке: https://www.gnu.org/licenses/gpl-3.0.en.html Перевод на русский язык: http://rusgpl.ru/)
+UDP104 - Interface for data exchange between Simulink Desktop Real-Time and external SCADA systems via IEC 60870-5-104 protocol;
+Configurator - Application "Configurator" with a graphical interface;
+SimulinkIEC104 - Library of common classes of projects "UDP104" and "Configurator";
+lib60870 - Source code for lib60870.NET version 2.1.0 with minor adjustments (https://github.com/mz-automation/lib60870.NET).
+License
+The source code is distributed under the GNU license (GPLv3) (The text of the license in English: https://www.gnu.org/licenses/gpl-3.0.en.html Translation into Russian: http://rusgpl.ru/)
